@@ -1,0 +1,123 @@
+.about-hero{
+
+    background:#2563eb;
+    color:white;
+    text-align:center;
+    padding:80px 0;
+
+}
+
+.about-hero p{
+
+    color:white;
+    max-width:700px;
+    margin:auto;
+
+}
+
+.about-content{
+
+    display:flex;
+    align-items:center;
+    gap:50px;
+
+}
+
+.about-image,
+.about-text{
+
+    flex:1;
+
+}
+
+.about-image img{
+
+    border-radius:10px;
+
+}
+
+.mission-vision{
+
+    background:#f5f5f5;
+
+}
+
+.mission-vision .container{
+
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+
+}
+
+.box{
+
+    background:white;
+    padding:40px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+}
+
+.team{
+
+    text-align:center;
+
+}
+
+.team-grid{
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+    margin-top:40px;
+
+}
+
+.member{
+
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+
+}
+
+.member:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.member img{
+
+    border-radius:50%;
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    margin:auto;
+
+}
+
+.stats{
+
+    background:#2563eb;
+    color:white;
+    text-align:center;
+
+}
+
+.stats-grid{
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:30px;
+
+}
+
+.stats p{
+
+    color:white;
+
+}

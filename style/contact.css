@@ -29,7 +29,7 @@ gap:40px;
 
 .contact-form{
 
-background:white;
+background:var(--light);
 padding:40px;
 border-radius:10px;
 box-shadow:0 5px 15px rgba(0,0,0,.1);
@@ -51,12 +51,14 @@ padding:15px;
 border:1px solid #ccc;
 border-radius:5px;
 font-size:16px;
+background:var(--bg);
+color:var(--dark);
 
 }
 
 .contact-info{
 
-background:white;
+background:var(--light);
 padding:40px;
 border-radius:10px;
 box-shadow:0 5px 15px rgba(0,0,0,.1);
@@ -114,5 +116,14 @@ margin-bottom:30px;
 iframe{
 
 border-radius:10px;
+
+}
+small{
+
+display:block;
+margin-top:5px;
+margin-bottom:10px;
+font-size:14px;
+color:red;
 
 }

@@ -36,7 +36,7 @@ gap:30px;
 
 .service-card{
 
-background:white;
+background:var(--light);
 padding:30px;
 border-radius:10px;
 box-shadow:0 5px 20px rgba(0,0,0,.1);
@@ -53,7 +53,7 @@ transform:translateY(-10px);
 .pricing{
 
 padding:80px 0;
-background:#f5f5f5;
+background:var(--bg);
 
 }
 
@@ -89,7 +89,7 @@ text-align:center;
 
 table tr:nth-child(even){
 
-background:#fafafa;
+background:var(--bg);
 
 }
 
@@ -108,7 +108,7 @@ margin-bottom:40px;
 
 .question{
 
-background:white;
+background:var(--light);
 padding:25px;
 margin-bottom:20px;
 border-left:5px solid var(--primary);
@@ -128,5 +128,25 @@ background:var(--primary);
 
 color:white;
 margin-bottom:25px;
+
+}
+/* Accordion */
+
+.faq-question{
+
+cursor:pointer;
+
+}
+
+.faq-answer{
+
+display:none;
+margin-top:15px;
+
+}
+
+.question.active .faq-answer{
+
+display:block;
 
 }

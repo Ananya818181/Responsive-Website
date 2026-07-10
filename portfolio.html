@@ -14,6 +14,7 @@
 </head>
 
 <body>
+<div id="progress-bar"></div>
 
 <header>
 <div class="container">
@@ -21,8 +22,14 @@
 
 <div class="logo">TechNova</div>
 
+<button id="theme-btn" class="theme-btn">
+    🌙
+</button>
 
-<ul>
+<div class="menu-toggle" id="menu-toggle">
+    ☰
+</div>
+<ul id="nav-links">
 <li><a href="home.html">Home</a></li>
 <li><a href="about.html">About</a></li>
 <li><a href="service.html">Services</a></li>
@@ -55,10 +62,10 @@
 
 <div class="container">
 
-<button class="active">All</button>
-<button>Web Design</button>
-<button>Development</button>
-<button>UI/UX</button>
+<button class="active" data-filter="all">All</button>
+<button data-filter="design">Web Design</button>
+<button data-filter="development">Development</button>
+<button data-filter="uiux">UI/UX</button>
 
 </div>
 
@@ -72,7 +79,7 @@
 
 <div class="portfolio-grid">
 
-<div class="project-card">
+<div class="project-card" data-category="development">
 
 <img src="images/project1.jpg" alt="">
 
@@ -86,7 +93,7 @@
 
 </div>
 
-<div class="project-card">
+<div class="project-card"  data-category="design">
 
 <img src="images/project2.jpg" alt="">
 
@@ -100,7 +107,7 @@
 
 </div>
 
-<div class="project-card">
+<div class="project-card" data-category="uiux">
 
 <img src="images/project3.jpg" alt="">
 
@@ -114,7 +121,7 @@
 
 </div>
 
-<div class="project-card">
+<div class="project-card" data-category="development">
 
 <img src="images/project4.jpg" alt="">
 
@@ -128,7 +135,7 @@
 
 </div>
 
-<div class="project-card">
+<div class="project-card" data-category="design">
 
 <img src="images/project5.jpg" alt="">
 
@@ -142,7 +149,7 @@
 
 </div>
 
-<div class="project-card">
+<div class="project-card" data-category="uiux">
 
 <img src="images/project6.jpg" alt="">
 
@@ -161,6 +168,7 @@
 </div>
 
 </section>
+<button id="topBtn" title="Go to top">↑</button>
 
 <footer>
 
@@ -177,6 +185,10 @@
 </div>
 
 </footer>
+<script src="js/menu.js"></script>
+<script src="js/darkmode.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/filter.js"></script>
 
 </body>
 </html>

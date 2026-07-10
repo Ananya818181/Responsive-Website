@@ -10,5 +10,20 @@
     --radius:10px;
 
     --transition:.3s ease;
+    --border:#d1d5db;
+
+}
+
+
+.dark-theme{
+
+    --primary:#60A5FA;
+    --secondary:#E5E7EB;
+    --light:#1F2937;
+    --dark:#F9FAFB;
+    --gray:#D1D5DB;
+    --bg:#111827;
+    --border:#374151;
+
 
 }
